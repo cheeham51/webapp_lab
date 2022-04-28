@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       - npm install -g npm
-      - npm install -g jest
       - npm install
   build:
     commands:
