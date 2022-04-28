@@ -8,7 +8,7 @@ phases:
       - npm install
   build:
     commands:
-      - ./node_modules/.bin/jest
+      - npm run test
 
 reports:
   jest_reports:
