@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.551">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-04-28T12:38:40" time="0.469" tests="1">
+    <testcase classname=" service returns &apos;Hello there!&apos;" name=" service returns &apos;Hello there!&apos;" time="0.029">
+      <failure>TypeError: The &quot;url&quot; argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at Url.parse (node:url:169:3)
+    at Object.urlParse [as parse] (node:url:156:13)
+    at dispatchHttpRequest (/Users/tony/Documents/training/pipeline_udemy/webapp_udemy/node_modules/axios/lib/adapters/http.js:124:22)
+    at new Promise (&lt;anonymous&gt;)
+    at httpAdapter (/Users/tony/Documents/training/pipeline_udemy/webapp_udemy/node_modules/axios/lib/adapters/http.js:48:10)
+    at dispatchRequest (/Users/tony/Documents/training/pipeline_udemy/webapp_udemy/node_modules/axios/lib/core/dispatchRequest.js:58:10)
+    at Axios.request (/Users/tony/Documents/training/pipeline_udemy/webapp_udemy/node_modules/axios/lib/core/Axios.js:108:15)
+    at Axios.&lt;computed&gt; [as get] (/Users/tony/Documents/training/pipeline_udemy/webapp_udemy/node_modules/axios/lib/core/Axios.js:129:17)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
