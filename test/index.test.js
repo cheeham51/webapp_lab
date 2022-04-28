@@ -1,5 +1,4 @@
 const axios = require('axios');
-// require('dotenv').config()
 
 test("service returns 'Hello there!'", async () => {
     try {
