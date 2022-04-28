@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.551">
-  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-04-28T12:38:40" time="0.469" tests="1">
-    <testcase classname=" service returns &apos;Hello there!&apos;" name=" service returns &apos;Hello there!&apos;" time="0.029">
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.345">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-04-28T12:52:24" time="0.284" tests="1">
+    <testcase classname=" service returns &apos;Hello there!&apos;" name=" service returns &apos;Hello there!&apos;" time="0.026">
       <failure>TypeError: The &quot;url&quot; argument must be of type string. Received undefined
     at new NodeError (node:internal/errors:371:5)
     at validateString (node:internal/validators:119:11)
