@@ -5,13 +5,13 @@ phases:
     commands:
       - npm install -g npm
       - npm install
-  build:
-    commands:
-      - npx jest
+  # build:
+  #   commands:
+  #     - npx jest
 
-reports:
-  jest_reports:
-    files:
-      - "test-report.xml"
-    file-format: JUNITXML
-    base-directory: "test-reports"
+# reports:
+#   jest_reports:
+#     files:
+#       - "test-report.xml"
+#     file-format: JUNITXML
+#     base-directory: "test-reports"
